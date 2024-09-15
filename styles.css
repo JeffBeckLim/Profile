@@ -151,13 +151,13 @@ height: 120px;
 #objective-education{
     height: 57rem;
 }
-#education-div{
-    height: 35%;
-    position: relative;
+#objective-div{
+    /* height: 35%; */
+    /* position: relative; */
 }
-#education-card{
-    position: absolute;
-    top: -80px;
+#objective-card{
+    /* position: absolute; */
+    top: -4rem;
     
 }
 
