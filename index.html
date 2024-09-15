@@ -14,12 +14,28 @@
     <link rel="stylesheet" href="styles.css">
 
     <!-- lottie player -->
-
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-
-</head>
+    
+   
+</head> 
   <body>
-
+    <nav class="border px-3">
+        <div class="row">
+            <div class="col d-flex align-items-center">
+                <h6 class="text-dark">
+                    Jeff Beck Lim
+                </h6>
+            </div>
+            <div class="col d-flex align-items-center justify-content-end">
+                <h6 class="text-end">
+                    <a href="./documents/Lim _ CV - 2024 (1).pdf" download="Lim_CV.pdf">
+                        <button style="scale: 0.8;" class="btn btn-primary">Download CV</button>
+                    </a>
+                </h6>
+            </div>
+        </div>
+        
+    </nav>
 
     <section id="banner"class=" d-flex align-items-center justify-content-center">
         <div class="row">
@@ -47,9 +63,11 @@
                     A recent graduate of Information Technology, eager to develop new skills, share knowledge, and build a successful professional career. 
                 </p>
                 <div class="col-12">
-                    <button class="btn btn-primary w-25 text-center">
-                        Download CV
-                    </button>
+                    <a href="./documents/Lim _ CV - 2024 (1).pdf" download="Lim_CV.pdf">
+                        <button class="btn btn-primary w-25 text-center">
+                            Download CV
+                        </button>
+                    </a>
                 </div>
             </div>   
         </div>
@@ -57,21 +75,22 @@
             <h2 class="text-center mb-4">
                 Education
             </h2>
-            <div class="row text-center" style="width: 900px;">
-                <div class="col mb-3 border-end">
-                    <h6 class="text-primary">Bachelor's Degree</h6>
-                </div>
-                <div class="col">
-                    <h6 class="text-primary border-end">Secondary Education</h6>
-                </div>
-                <div class="col">
-                    <h6 class="text-primary">Primary Education</h6>
-                </div>
 
+            <div class="row text-center mb-3" style="width: 900px;">
+                <div class="col border-end">
+                    <button id="btn-bachelor" class="btn btn-link text-decoration-none"><h6>Bachelor's Degree</h6></button>
+                </div>
+                <div class="col border-end">
+                    <button id="btn-secondary-educ" class="btn btn-link text-decoration-none"><h6>Secondary Education</h6></button>
+                </div>
+                <div class="col">
+                    <button id="btn-primary-educ" class="btn btn-link text-decoration-none"><h6>Primary Education</h6></button>
+                </div>
             </div>
+
             <div class="card">
-                <div class="row ">
-                    <div class="col  d-flex justify-content-center">
+                <div id="bachelor-div" class="row d-none">
+                    <div class="col d-flex justify-content-center">
                         <dotlottie-player src="https://lottie.host/007421e5-e11c-4c55-a1e6-bc58541b1022/2gvyOS5zvu.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
                     </div>
                     <div class="col d-flex align-items-center">
@@ -84,6 +103,51 @@
                                     Bicol University, College of Science <br> 
                                     2020 - 2024
                                 </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="secondary-educ-div" class="row d-none"> 
+                    <div class="col d-flex justify-content-center">
+                        <img style="width: 300px;" src="./assets/highscool.gif" alt="">
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="m-0">SHS - General Academic Strand</h5>
+                                <i class="poppins-medium-italic"> With Honor
+                                </i>
+                                <h6 class="mt-4">
+                                    Marcial o. Ranola Memorial School <br> 
+                                    2018 - 2020
+                                </h6>
+                            </div>
+                            <div class="col-12">
+                                <h5 class="m-0">JHS - Special Program in the Arts</h5>
+                                <i class="poppins-medium-italic"> With Honor
+                                </i>
+                                <h6 class="mt-4">
+                                    Marcial o. Ranola Memorial School <br> 
+                                    2014 - 2017
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="primary-educ-div" class="row d-none"> 
+                    <div class="col d-flex justify-content-center">
+                        <img style="height: 240px;" src="./assets/travesia.jfif" alt="">   
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="m-0">Travesia Elementary School</h5>
+                                <i class="poppins-medium-italic"> Graduate
+                                </i>
+                                <!-- <h6 class="mt-4">
+                                    Travesia <br> 
+                                    2020 - 2024
+                                </h6> -->
                             </div>
                         </div>
                     </div>
@@ -198,12 +262,13 @@
                 </h6>
             </div>
             <div class="col-12">
-                <img src="./assets/sunset.png" alt="" class="mt-4">
+                <img src="./assets/sunset.gif" alt="" class="mt-4" style="width: 400px;">
             </div>
         </div>
     
     </footer>
 
+    <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
