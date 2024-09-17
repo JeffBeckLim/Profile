@@ -5,8 +5,6 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 300 !important;
     font-style: normal;
-
-    overflow-x: hidden;
 }
 .btn{
     border-radius: 36px;
@@ -168,5 +166,5 @@ nav{
   width: 100%;      /* Make it full width */
   background-color: white; 
   z-index: 1000;    /* Ensure it's on top of other content */
-  padding: 10px 0;  /* Add some vertical padding */
+  padding: 10px;  /* Add some vertical padding */
 }
