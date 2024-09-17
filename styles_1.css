@@ -17,6 +17,11 @@ body{
         width: 90%;
         /* border: rgb(0, 0, 0) solid 2px; */
     }
+    #mock-up{
+        margin-top: 20px;
+        width: auto !important;
+        height: 300px !important;
+    }
 }  
 .card{
     border-radius: 2.25rem !important;
@@ -34,3 +39,4 @@ h1, h2, h3, h4, h5, p, i, a{
 #objective-card{
     top: -4rem;
 }
+
