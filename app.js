@@ -1,3 +1,5 @@
+
+// EDUCATION TABS
 const btn_bachelor = document.getElementById('btn-bachelor');
 const btn_secondary_educ = document.getElementById('btn-secondary-educ');
 const btn_primary_educ = document.getElementById('btn-primary-educ');
@@ -37,3 +39,7 @@ btn_primary_educ.addEventListener('click', function() {
     secondary_educ_div.classList.add('d-none')
     primary_educ_div.classList.remove('d-none')
 });
+
+
+
+
