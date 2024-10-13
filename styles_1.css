@@ -59,3 +59,15 @@ h1, h2, h3, h4, h5, p, i, a{
       transform: rotate(360deg);
     }
   }
+
+
+/* .btn-primary{
+    background-color: #002FD9;
+    border: #002FD9;
+}
+
+.btn-primary:hover{
+    filter: brightness(1.1);
+    background-color: #002FD9;
+    border: #002FD9;
+} */
