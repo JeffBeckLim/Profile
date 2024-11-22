@@ -11,3 +11,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el)); 
+
+// animate speech bubble
+window.onload = function() {
+  const fadeInOutElement = document.getElementById('dialog');
+  fadeInOutElement.classList.add('show'); // Make the element visible
+
+  setTimeout(() => {
+    fadeInOutElement.classList.remove('show'); // Remove the 'show' class after 2 seconds
+  }, 3500);
+};

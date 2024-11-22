@@ -33,6 +33,25 @@ body{
     border-radius: 2.25rem !important;
     padding: 40px 40px 40px 40px;
 }
+
+#dialog{
+    width: 12rem;
+    padding: 2rem;
+    position: absolute;
+    text-align: center;
+    top: 7.5rem;
+    left: 50%;
+    z-index: 9999;
+
+    
+    opacity: 0; /* Initially hidden */
+    transition: all 1s ease-in-out; /* Smooth transition */
+}
+
+#dialog.show {
+    opacity: 1; /* Visible */
+  }
+
 .hidden{
     /* border: 2px solid red; */
     filter: blur(2px);
