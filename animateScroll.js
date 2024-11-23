@@ -19,5 +19,5 @@ window.onload = function() {
 
   setTimeout(() => {
     fadeInOutElement.classList.remove('show'); // Remove the 'show' class after 2 seconds
-  }, 3500);
+  }, 4000);
 };

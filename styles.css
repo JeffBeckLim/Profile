@@ -35,20 +35,24 @@ body{
 }
 
 #dialog{
-    width: 12rem;
-    padding: 2rem;
+    border: 2px black solid;
+    width: 10rem;
+    padding: 1rem;
     position: absolute;
     text-align: center;
-    top: 7.5rem;
-    left: 50%;
+    top: 9.5rem;
+    left: 48%;
     z-index: 9999;
 
-    
+    scale: 0.8;
     opacity: 0; /* Initially hidden */
     transition: all 1s ease-in-out; /* Smooth transition */
 }
 
 #dialog.show {
+    top: 9rem;
+    left: 50%;
+    scale: 1;
     opacity: 1; /* Visible */
   }
 
