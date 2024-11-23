@@ -41,12 +41,12 @@ body{
     position: absolute;
     text-align: center;
     top: 9.5rem;
-    left: 48%;
+    left: 47%;
     z-index: 9999;
 
     scale: 0.8;
     opacity: 0; /* Initially hidden */
-    transition: all 1s ease-in-out; /* Smooth transition */
+    transition: all 0.25s; /* Smooth transition */
 }
 
 #dialog.show {
